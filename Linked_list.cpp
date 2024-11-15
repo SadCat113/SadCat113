@@ -42,12 +42,12 @@ public:
     
     Type top(){
         if (is_empty())
-            throw Invalid();
+            throw Exception();
         return (*ptr_last_item).number;
     }
     Type pop(){
         if (is_empty())
-            throw Invalid();
+            throw Exception();
         Type return_value = (*ptr_last_item).number;
         Element<Type>* element = (*ptr_last_item).pointer;
         delete ptr_last_item;
