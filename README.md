@@ -1,0 +1,2 @@
+- 👋 Hi, I’m @SadCat113
+- 🌱 I’m currently learning c++
